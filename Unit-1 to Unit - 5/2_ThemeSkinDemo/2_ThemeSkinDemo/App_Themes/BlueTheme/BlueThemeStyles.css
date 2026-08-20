@@ -1,0 +1,12 @@
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 30px;
+}
+
+.theme-heading {
+    color: #ffffff;
+    background-color: #2980b9;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
