@@ -1,0 +1,11 @@
+<%-- Default skin applied automatically to every asp:Button on themed pages --%>
+<asp:Button runat="server" BackColor="#2980b9" ForeColor="White" Font-Bold="true" BorderStyle="None" Height="32px" />
+
+<%-- Default skin for TextBox --%>
+<asp:TextBox runat="server" BackColor="#ffffff" BorderColor="#2980b9" BorderStyle="Solid" BorderWidth="1px" />
+
+<%-- Named skin: applied only when SkinID="Alert" is set --%>
+<asp:Label runat="server" SkinID="Alert" ForeColor="#c0392b" Font-Bold="true" />
+
+<%-- Named skin: applied only when SkinID="Success" is set --%>
+<asp:Label runat="server" SkinID="Success" ForeColor="#27ae60" Font-Bold="true" />
